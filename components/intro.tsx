@@ -10,7 +10,10 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-2-[50rem] text-center sm:mb-0 ">
+    <section
+      id="home"
+      className="mb-28 max-2-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className=" flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -51,11 +54,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Abtin.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I'm Abtin.</span> A{" "}
+        <span className="font-bold">full-stack developer</span> weaving tech
+        prowess with a decade-long background in hospitality. Proficient in{" "}
+        <span className="font-medium">React, Vue, and Node</span>, I excel in
+        crafting user-centric web experiences. With an innate knack for
+        problem-solving, I'm passionate about merging{" "}
+        <span className="italic">human engagement</span> with{" "}
+        <span className="underline">precision code</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px4 text-lg font-medium"
